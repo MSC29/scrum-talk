@@ -1,0 +1,39 @@
+{
+    "name": "clean-architecture-talk",
+    "version": "0.0.1",
+    "description": "Clean Architecture Talk: Introduction to Clean Architecture",
+    "homepage": "https://github.com/MSC29/clean-architecture-talk",
+    "main": "index.html",
+    "license": "GNU GPL v3",
+    "scripts": {
+        "start": "npx http-server"
+    },
+    "author": {
+        "name": "Maël Sicard-Cras",
+        "email": "mael.sicardcras@gmail.com",
+        "web": "https://www.linkedin.com/in/maelsicardcras"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/MSC29/clean-architecture-talk.git"
+    },
+    "engines": {
+        "node": ">=10.0.0"
+    },
+    "keywords": [
+        "reveal",
+        "slides",
+        "presentation",
+        "clean-architecture"
+    ],
+    "overrides": {
+        "chokidar": "3.5.3",
+        "glob-parent": "6.0.2"
+    },
+    "browserslist": "> 2%, not dead",
+    "dependencies": {
+        "@babel/eslint-parser": "^7.21.8",
+        "http-server": "^14.1.1",
+        "reveal.js": "^4.5.0"
+    }
+}
